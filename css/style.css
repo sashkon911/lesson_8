@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+[class*="container"]{
+   max-width: 1230px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+header{
+   font-family: lato;
+   font-weight: 900;
+   font-size: 46px;
+   padding: 50px;
+}
+header:hover{
+text-shadow: 5px 5px 5px;
+}
+header:active{
+   color: red;
+}
+main{
+   font-family: lato;
+}
+.title{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+.text{
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 48px;
+}
+.title__two{
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.list li:not(:last-child){
+   margin-bottom: 4px;}
+.list li{
+   min-height: 18px;
+   padding-left: 32px;
+   background: url("../img/check.jpg") 0 1px no-repeat;
+}
+.title__three{
+   font-weight: 700;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 8px;
+}
+.title__fore{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 16px;
+}
+.text__one{
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 32px;
+}
+.list__one li{
+   min-height: 20px;
+   font-weight: 700;
+   line-height: 160%;
+   color: #424551;
+   padding-left: 24px;
+}
+.list__one li:not(:last-child){
+   margin-bottom: 4px;
+}
+.list__one ul{
+   margin-bottom: 32px;
+}
+.icon{
+   background: url("../img/rate.jpg") 0 5px no-repeat;
+}
+.icon__one{
+   background: url("../img/courses.jpg") 0 5px no-repeat;
+}
+.icon__two{
+   background: url("../img/students.jpg") 0 5px no-repeat;
+}
+footer{
+   margin: 0 auto;
+   width: 600px;
+   height: 600px;
+   border: solid;
+   background-color: #787A80;
+}
+.game{
+   margin-left: 10px;
+   margin-top: 10px;
+   border: solid;
+   width: 70px;
+   height: 40px;
+}
+.start{
+   padding-left: 9px;
+   padding-top: 11px;
+}
+.level{
+   border: solid;
+   height: 100%;
+   background-color: aqua;
+}
+.starts__level{
+   width: 40px;
+   height: 200px;
+   margin-left: 24px;
+   margin-top: -40px;
+}
+.level__two{
+   border: solid;
+   height: 100%;
+   background-color: gold;
+}
+.starts__level-two{
+   width: 200px;
+   height: 35px;
+   margin-left: 24px;
+   margin-top: -1px;
+}
+.level__three{
+   border: solid;
+   height: 100%;
+   background-color: green;
+}
+.starts__level-three{
+   width: 30px;
+   height: 150px;
+   margin-left: 223px;
+   margin-top: -35px;
+}
+.level__fore{
+   border: solid;
+   height: 100%;
+   background-color: red;
+}
+.starts__level-fore{
+   width: 250px;
+   height: 25px;
+   margin-left: 223px;
+   margin-top: -2px;
+}
+.level__five{
+   border: solid;
+   height: 100%;
+   background-color: rebeccapurple;
+}
+.starts__level-five{
+   width: 25px;
+   height: 150px;
+   margin-left: 471px;
+   margin-top: -25px;
+}
+.level__six{
+   border: solid;
+   height: 100%;
+   background-color: tomato;
+}
+.starts__level-six{
+   width: 404px;
+   height: 15px;
+   margin-left: 69px;
+   margin-top: -15px;
+}
+.finish{
+   border: solid;
+   width: 70px;
+   height: 50px;
+   margin-left: 10px;
+   margin-top: -30px;
+   background-color: greenyellow;
+   padding-left: 7px;
+   padding-top: 13px;
+}
+.starts__level .level{
+   visibility: hidden;
+   opacity: 0;
+}
+.starts__level:hover .level{
+   visibility: visible;
+   opacity: 1;
+}
+.starts__level-two .level__two{
+   visibility: hidden;
+   opacity: 0;
+}
+.starts__level-two:hover .level__two{
+   visibility: visible;
+   opacity: 1;
+}
+.starts__level-three .level__three{
+   opacity: 0;
+   visibility: hidden;
+}
+.starts__level-three:hover .level__three{
+   visibility: visible;
+   opacity: 1;
+}
+.starts__level-fore .level__fore{
+   visibility: hidden;
+   opacity: 0;
+}
+.starts__level-fore:hover .level__fore{
+   visibility: visible;
+   opacity: 1;
+}
+.starts__level-five .level__five{
+   visibility: hidden;
+   opacity: 0;
+}
+.starts__level-five:hover .level__five{
+   visibility: visible;
+   opacity: 1;
+}
+.starts__level-six .level__six{
+   visibility: hidden;
+   opacity: 0;
+}
+.starts__level-six:hover .level__six{
+   visibility: visible;
+   opacity: 1;
+}
+#lesson{
+   margin-bottom: 50px;
+   font-size: 20px;
+}
+#lesson__one{
+   margin-right: 20px;
+}
+#lesson__one:hover::before{
+content: "(";   
+}
+#lesson__one:hover::after{
+   content: ")";   
+}
+#lesson__two{
+
+   margin-right: 20px;
+}
+#lesson__two:active{
+   visibility: hidden;
+   opacity: 0;
+}
+#lesson__three{
+   margin-right: 20px;
+}
+#lesson__three:focus{
+border-radius: 25%;
+}
+#lesson a:nth-child(3){
+   color: red;
+}
+#lesson__fore:focus{
+   color: white;
+}
+.list__two{
+   padding: 30px;
+}
+.list__three ul{
+   display: none;
+}
+.list__three li:hover ul{
+	display: block;
+}
+
